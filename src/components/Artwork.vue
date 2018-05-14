@@ -91,6 +91,7 @@ export default {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    pointer-events: none;
   }
 
   .art {
@@ -103,6 +104,7 @@ export default {
     -webkit-box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
     -moz-box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
     box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
+    cursor: pointer;
     }
 
   .art-container:hover .art {
