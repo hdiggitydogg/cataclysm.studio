@@ -1,13 +1,20 @@
 <template>
   <div class="home">
+      <div class="background-image">
+          <img class="img" src="images/CatAclysmIcon.png"/>
+      </div>
 
       <div class="container">
           <h2>Behold - some stuff I did:</h2>
-          <a @click="applyTag('colour')" :class="{ active : tagActive('colour') }"> colour </a>
-          <a @click="applyTag('mono')" :class="{ active : tagActive('mono') }">mono </a>
-          <a @click="applyTag('sculpture')" :class="{ active : tagActive('sculpture') }">sculpture </a>
-          <a @click="applyTag('commission')" :class="{ active : tagActive('commission') }">commission </a>
-          <a @click="applyAllTags()" :class="{ active : allTags() }">All </a>
+          <a class="tag" @click="applyTag('colour')" :class="{ active : tagActive('colour') }">colour</a>
+          <span> | </span>
+          <a class="tag" @click="applyTag('mono')" :class="{ active : tagActive('mono') }">mono</a>
+          <span> | </span>
+          <a class="tag" @click="applyTag('sculpture')" :class="{ active : tagActive('sculpture') }">sculpture</a>
+          <span> | </span>
+          <a class="tag" @click="applyTag('commission')" :class="{ active : tagActive('commission') }">commission</a>
+          <span> | </span>
+          <a class="tag" @click="applyAllTags()" :class="{ active : allTags() }">All</a>
           <div class="work-examples">
               <div :key="artwork.id" v-for="artwork in artworks">
                     <Artwork v-if="showImage(artwork)"  :artwork="artwork" />
@@ -254,6 +261,22 @@ export default {
 
 <style scoped lang="scss">
 
+    .background-image {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .img {
+            position: absolute;
+            top: 30px;
+            opacity: 0.2;
+            height: inherit;
+            max-height: 69vh;
+        }
+    }
+
     .work-examples {
         display: flex;
         flex-flow: row wrap;
@@ -264,8 +287,17 @@ export default {
         margin-top: 30px;
     }
 
+    a:hover {
+        cursor: pointer;
+        color: #C6A4BF;
+    }
+
     a.active {
-        color: red;
+        font-weight: bold;
+        &:hover {
+            color: #2c3e50;
+            cursor: default;
+        }
     }
 
 </style>
