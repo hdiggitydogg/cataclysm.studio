@@ -133,9 +133,11 @@ export default {
   }
 
   .modal-wrapper {
-    display: table-cell;
+    width: 1170px;
+    display: block;
     vertical-align: middle;
-    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .modal-container {
@@ -143,9 +145,7 @@ export default {
     padding: 20px 30px;
     background-color: transparent;
     border-radius: 2px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .3s ease;
-    font-family: Helvetica, Arial, sans-serif;
     color: white;
   }
 
@@ -156,6 +156,7 @@ export default {
   img.art-fullview {
     max-height: 75vh;
     border: 5px white solid;
+    max-width: 100%;
   }
 
   .modal-default-button {
