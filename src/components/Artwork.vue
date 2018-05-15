@@ -83,7 +83,7 @@ export default {
     background-color: white;
     right: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 5px 10px;
   }
 
