@@ -80,6 +80,11 @@ export default {
 
   .art-container {
     position: relative;
+    background-color: white;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin: 5px 10px;
   }
 
   .opacity-layer {
@@ -100,7 +105,6 @@ export default {
     transition: .5s ease;
     backface-visibility: hidden;
     border: 5px white solid;
-    margin: 5px 10px;
     -webkit-box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
     -moz-box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
     box-shadow: 13px 10px 19px -8px rgba(217,202,217,1);
