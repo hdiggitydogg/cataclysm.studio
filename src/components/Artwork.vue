@@ -133,22 +133,28 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, .8);
-    display: table;
     transition: opacity .3s ease;
+    overflow: scroll;
   }
 
   .modal-wrapper {
-    width: 1170px;
+    max-width: 1170px;
+    max-height: 100vh;
     display: block;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 20px;
   }
 
   .modal-container {
-    margin: 0px auto;
-    padding: 20px 30px;
+    overflow: scroll;
+    margin: 10px auto;
+    padding: 0;
     background-color: transparent;
     border-radius: 2px;
     transition: all .3s ease;
@@ -162,7 +168,7 @@ export default {
   img.art-fullview {
     max-height: 75vh;
     border: 5px white solid;
-    max-width: 100%;
+    max-width: 85vw;
   }
 
   .modal-default-button {
@@ -182,6 +188,32 @@ export default {
         cursor: pointer;
         #circle {
           fill: #86BEBE;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+
+
+    .modal-default-button {
+      float: right;
+      svg {
+        #circle {
+          fill: #C6A4BF;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+        height: 30px;
+        width: 30px;
+        &:hover {
+          cursor: pointer;
+          #circle {
+            fill: #86BEBE;
+          }
         }
       }
     }
