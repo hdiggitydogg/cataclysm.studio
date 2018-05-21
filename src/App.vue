@@ -186,11 +186,13 @@
   }
 
 
-  @media (max-width: 700px) {
+  @media (max-width: 1170px) {
       .container {
           padding: 0 15px;
       }
+  }
 
+  @media (max-width: 700px) {
       .navbar {
           text-align: center;
           padding: 15px;

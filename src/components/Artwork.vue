@@ -17,7 +17,7 @@
 
             <div class="modal-header">
               <slot name="header">
-                {{ artwork.name }}
+                <h3>{{ artwork.name }}</h3>
               </slot>
               <span class="modal-default-button" @click="showModal = false">
                 <svg viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg">
@@ -161,6 +161,16 @@ export default {
     color: white;
   }
 
+  .modal-header {
+    h3 {
+      margin: 10px;
+    }
+  }
+
+  .modal-footer {
+    padding-bottom: 15px;
+  }
+
   .modal-body {
     margin: 15px 0;
   }
@@ -190,6 +200,12 @@ export default {
           fill: #86BEBE;
         }
       }
+    }
+  }
+
+  @media (min-width: 1175px) {
+    img.art-fullview {
+      max-width: 1170px;
     }
   }
 
