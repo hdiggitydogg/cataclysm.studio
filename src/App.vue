@@ -24,7 +24,8 @@
         <span class="name">CatAclysm<strong>.Studio</strong></span>
         <span class="nav-links">
           <router-link to="/" title="home">Home</router-link> |
-          <router-link to="/about" title="about">About</router-link>
+          <router-link to="/about" title="about">About</router-link> |
+          <router-link to="/crow" title="crow">Crow</router-link>
         </span>
       </div>
 
@@ -64,6 +65,22 @@
     position: relative;
   }
 
+  .background-image {
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .img {
+          position: absolute;
+          top: 30px;
+          opacity: 0.2;
+          height: inherit;
+          max-height: 69vh;
+      }
+  }
+
   .navbar {
     text-align: left;
     padding: 30px 15px;
@@ -78,6 +95,7 @@
       color: white;
     }
   }
+
   .navbar-brand {
     border-radius: 50%;
     height: 50px;
@@ -140,6 +158,9 @@
       -ms-transition: font-weight 0.3s;
       -o-transition: font-weight 0.3s;
       transition: font-weight 0.3s;
+        &:hover {
+            color: white;
+        }
     }
     .router-link-exact-active, a:hover {
       font-weight: bold;
@@ -153,5 +174,50 @@
     background-color: white;
     padding: 10px 0;
   }
+
+
+  a {
+      text-underline-position: under;
+      color: #2c3e50;
+      &:hover {
+          cursor: pointer;
+          color: darken(#C6A4BF, 20%);
+      }
+  }
+
+
+  @media (max-width: 700px) {
+      .container {
+          padding: 0 15px;
+      }
+
+      .navbar {
+          text-align: center;
+          padding: 15px;
+          .name {
+              margin-right: 0;
+          }
+      }
+
+      .navbar-brand {
+          position: absolute;
+          left: 0;
+          img {
+              margin-top: 7px;
+              position: relative;
+          }
+          .piece-of-flair {
+              left: 0;
+              top: 7px;
+          }
+      }
+
+      .nav-links {
+          position: relative;
+          display: block;
+          margin-top: 10px;
+          margin-bottom: -5px;
+      }
+    }
 
 </style>
