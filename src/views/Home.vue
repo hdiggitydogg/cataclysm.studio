@@ -345,6 +345,10 @@ export default {
         max-width: 1170px;
     }
 
+    .tag {
+        text-decoration: underline;
+    }
+
     a:hover {
         cursor: pointer;
     }
