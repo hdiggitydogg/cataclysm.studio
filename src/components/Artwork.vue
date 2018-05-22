@@ -2,7 +2,7 @@
   <div>
 
     <div class='art-container' @click="showModal = true">
-    <img class='art' :id="artwork.id" :src="getArtworkImageSrc(artwork)" :alt="artwork.altText">
+    <img class='art' :id="artwork.id" :src="getArtworkThumbSrc(artwork)" :alt="artwork.altText">
     <div class="opacity-layer">
       <span class='name'>{{ artwork.name }}</span>
     </div>
@@ -60,7 +60,10 @@ export default {
   },
   methods: {
       getArtworkImageSrc(artwork) {
-          return this.imagePath + artwork.image;
+          return this.imagePath + artwork.image + ".jpg";
+      },
+      getArtworkThumbSrc(artwork) {
+          return this.imagePath + artwork.image + "-thumb.jpg";
       }
   },
   data () {
