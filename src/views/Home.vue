@@ -36,6 +36,38 @@ export default {
         return {
             artworks: [
                 {
+                    id: "image35",
+                    name: "Tess",
+                    altText: "A portrait of a blak labradoodle",
+                    image: "Tess_the_dog",
+                    description: "This portrait of Tess was a charity auction piece for Holly Hedge Animal Sanctuary, she was a pleasure to paint with all those curls. Watercolour and watercolour pencil, at A5(ish).",
+                    tags: ["colour", "commission"]
+                },
+                {
+                    id: "image34",
+                    name: "Water",
+                    altText: "A water mermaid pegasus",
+                    image: "Water",
+                    description: "A water elemental pegasus, with a mermaid tail. There's no portmanteau wide enough to cover that I think. To go with the fire and ice pegususes-pegusai-pegawhatnot. Because I have very little restraint, this one is also larger and has glitter in it.",
+                    tags: ["colour"]
+                },
+                {
+                    id: "image33",
+                    name: "Alpacas",
+                    altText: "Two alpacas, one tan and one black",
+                    image: "Alpacas",
+                    description: "These two look like trouble! Two alpacas who live in New Zealand, a commission in watercolour and watercolour pencil. They have such funny faces!",
+                    tags: ["colour", "commission"]
+                },
+                {
+                    id: "image32",
+                    name: "Birds",
+                    altText: "A tui and a fantail play in the NZ rainforest",
+                    image: "Birds",
+                    description: "A Tui and a Fantail, two iconic NZ birds, hang out in the lush NZ rainforest. This was a watercolour commission for a baby's room, for her first birthday. Happy birthday Eva!",
+                    tags: ["colour", "commission"]
+                },
+                {
                     id: "image31",
                     name: "CatAclysm",
                     altText: "A cat skull on a background of black and green space with stars",
