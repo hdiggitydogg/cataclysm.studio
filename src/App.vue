@@ -34,12 +34,22 @@
     <router-view/>
 
     <div class="footer">
-      &copy; 2018, Helen Lloyd
+      &copy; {{ copyrightYear }}, Helen Lloyd
     </div>
 
   </div>
 
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      copyrightYear: new Date().getFullYear(),
+    }
+  }
+}
+</script>
 
 <style lang="scss" type="text/scss">
 

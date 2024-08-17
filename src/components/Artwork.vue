@@ -187,6 +187,8 @@ export default {
   .modal-default-button {
     float: right;
     svg {
+      height: 50px;
+      width: 50px;
       #circle {
         fill: #C6A4BF;
         -webkit-transition: all 0.5s;
@@ -195,8 +197,6 @@ export default {
         -o-transition: all 0.5s;
         transition: all 0.5s;
       }
-      height: 50px;
-      width: 50px;
       &:hover {
         cursor: pointer;
         #circle {
@@ -218,6 +218,8 @@ export default {
     .modal-default-button {
       float: right;
       svg {
+        height: 30px;
+        width: 30px;
         #circle {
           fill: #C6A4BF;
           -webkit-transition: all 0.5s;
@@ -226,8 +228,6 @@ export default {
           -o-transition: all 0.5s;
           transition: all 0.5s;
         }
-        height: 30px;
-        width: 30px;
         &:hover {
           cursor: pointer;
           #circle {

@@ -2,7 +2,7 @@
 
   <div class="about">
     <div class="background-image">
-      <img class="img" src="images/CatAclysmIcon.png"/>
+      <img class="img" src="/images/CatAclysmIcon.png"/>
     </div>
 
     <div class="container-50">

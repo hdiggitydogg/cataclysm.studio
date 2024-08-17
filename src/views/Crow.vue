@@ -1,7 +1,7 @@
 <template>
     <div class="crow">
         <div class="background-image">
-            <img class="img" src="images/CatAclysmIcon.png"/>
+            <img class="img" src="/images/CatAclysmIcon.png"/>
         </div>
         <div class="container">
             <h2>The Crow</h2>

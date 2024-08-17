@@ -1,7 +1,7 @@
 <template>
   <div class="home">
       <div class="background-image">
-          <img class="img" src="images/CatAclysmIcon.png"/>
+          <img class="img" src="/images/CatAclysmIcon.png"/>
       </div>
       <div class="container">
           <h2>Behold - some stuff I did:</h2>
@@ -76,7 +76,7 @@ export default {
                     tags: ["colour"]
                 },
                 {
-                    id: "image34",
+                    id: "image36",
                     name: "Sculpture of Bo",
                     altText: "A sculpture of a black dog with a white chest",
                     image: "Sculpture_of_Bo",
@@ -308,7 +308,7 @@ export default {
                     tags: ["colour"]
                 },
                 {
-                    id: "image33",
+                    id: "image38",
                     name: "Moogle",
                     altText: "A sculpture of a moogle from Final Fantasy 14",
                     image: "Moogle",
@@ -333,7 +333,7 @@ export default {
                 },
 
                 {
-                    id: "image32",
+                    id: "image37",
                     name: "Lego wedding cake topper",
                     altText: "A cake topper created in clay to look like giant lego people, painted like the bride and groom",
                     image: "Lego_wedding_cake_topper",
