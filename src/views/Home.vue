@@ -5,13 +5,13 @@
       </div>
       <div class="container">
           <h2>Behold - some stuff I did:</h2>
-          <a class="tag" @click="applyTag('colour')" :class="{ active : tagActive('colour') }">colour</a>
+          <a class="tag" @click="applyTag('sculpture')" :class="{ active : tagActive('sculpture') }">Sculpture</a>
           <span> | </span>
-          <a class="tag" @click="applyTag('mono')" :class="{ active : tagActive('mono') }">graphite</a>
+          <a class="tag" @click="applyTag('colour')" :class="{ active : tagActive('colour') }">Colour</a>
           <span> | </span>
-          <a class="tag" @click="applyTag('sculpture')" :class="{ active : tagActive('sculpture') }">sculpture</a>
+          <a class="tag" @click="applyTag('mono')" :class="{ active : tagActive('mono') }">Graphite</a>
           <span> | </span>
-          <a class="tag" @click="applyTag('commission')" :class="{ active : tagActive('commission') }">commission</a>
+          <a class="tag" @click="applyTag('commission')" :class="{ active : tagActive('commission') }">Commission</a>
           <span> | </span>
           <a class="tag" @click="applyAllTags()" :class="{ active : allTags() }">All</a>
           <div class="work-examples">

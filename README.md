@@ -7,5 +7,6 @@
 ### Once ready to deploy:
 5. Build the production site: `npm run build`
 6. Add latest changes to git: `git add .`
-7. Push changes to github: `git push origin master`
-8. Github actions will deploy latest version to Github Pages: should take ~60s for the prod site to be updated
+7. Add commit message: `git commit -m "Some info about the changes"`
+8. Push changes to github: `git push origin master`
+9. Github actions will deploy latest version to Github Pages: should take ~60s for the prod site to be updated
