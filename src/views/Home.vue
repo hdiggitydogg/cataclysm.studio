@@ -36,6 +36,62 @@ export default {
         return {
             artworks: [
                 {
+                    id: "image42",
+                    name: "Griffin Jr",
+                    altText: "A ceramic statue of a Griffin",
+                    image: "griffin_jr",
+                    description: "This Griffin was sculpted during my class time at Clayability in Wrington, with his brother Blunicorn. He is decorated with underglaze and oxides which were sponged off to give him his furry appearance, then glazed clear. My favourite thing about him is his fat little back paws.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image41",
+                    name: "Blunicorn",
+                    altText: "A ceramic statue of a unicorn, glazed all over in blue",
+                    image: "blunicorn",
+                    description: "This unicorn was sculpted during my class time at Clayability in Wrington, with his brother Griffin Jr. Hand built in buff clay, glazed all over, then decorated with mother-of-pearl lustre.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image40",
+                    name: "Octopus Bowl",
+                    altText: "A blue ceramic bowl, with a blue ceramic octopus in the middle, tentacles reaching out",
+                    image: "octopus_bowl",
+                    description: "This octopus jewellry dish was sculpted during my class time at Clayability in Wrington. He was a one-off piece for a friend's birthday. Look out for that top tentacle, he's a tad stabby.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image39",
+                    name: "Mouse Mug and Bowl",
+                    altText: "A blue ceramic mug with a small mouse perched on the handle, and a small blue ceramic bowl with a mouse perched on the edge",
+                    image: "mouse_bowl_and_mug",
+                    description: "This matching mug and teabag bowl were made at my home studio - they were actually created at different times, so the bowl is white clay and the mug is buff. The base glaze is the same but the mug has additional mayco green glaze as a drip.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image38",
+                    name: "Cat Bowl",
+                    altText: "A small blue ceramic bowl with a calico cat hanging on the side",
+                    image: "cat_bowl",
+                    description: "This bowl was made at my home studio, because I like sculpting small animals, and making small bowls, so the two just kind of have to happen together. It makes life more fun when there's a little animal involved.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image37",
+                    name: "Sea Otter Chopstick Holders",
+                    altText: "Two chopstick holders in the shape of sea otters",
+                    image: "otter_chopsticks",
+                    description: "These sea otter chopstick holders were sculpted during my class time at Clayability in Wrington, and they just look too cute. Never separate them.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image36",
+                    name: "Mushroom Ring Holder",
+                    altText: "A ceramic dish, with a ceramic mushroom in the centre to hold jewellry",
+                    image: "mushroom_ring_holder",
+                    description: "This mushroom ring dish was made at my home studio, as I keep needing something to put my wedding ring on when I throw, and I had this idea for little mushrooms. The tops of the mushrooms simply balance on the stems and they make a very satisfying sound.",
+                    tags: ["sculpture"]
+                },
+                {
                     id: "image35",
                     name: "Tess",
                     altText: "A portrait of a blak labradoodle",
