@@ -36,6 +36,46 @@ export default {
         return {
             artworks: [
                 {
+                    id: "image47",
+                    name: "Dragon bowl",
+                    altText: "A ceramic bowl with a dragon perched on the edge, curled round the rim",
+                    image: "dragon_bowl",
+                    description: "I love making animals on bowls, and I love a good mythical creature, so it was so fun to put this one together. The bowl looks raku with a metallic sheen, but it's just Amaco Dark Star an oxidisation glaze. Plus a bit of gold lustre.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image46",
+                    name: "Bunny bowl",
+                    altText: "A ceramic purple tankard covered in purple geometric patterns",
+                    image: "bunny_bowl",
+                    description: "This bunny is just too cute. Buff stoneware with a mayco aurora green glaze, usually I want my aurora to come out with the pinks and blues but in this one, I'm ok with the mossiness.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image45",
+                    name: "Fox bowl",
+                    altText: "A ceramic purple tankard covered in purple geometric patterns",
+                    image: "fox_bowl",
+                    description: "This little cheeky fella was fun but the underglaze orange was giving me trouble, so I'm just glad he worked out ok! Bit of gold lustre to jazz him up.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image44",
+                    name: "Mouse House",
+                    altText: "A ceramic purple tankard covered in purple geometric patterns",
+                    image: "mouse_house",
+                    description: "On the suggestion of a colleague, a tealight holder but as a little mushroom house, with a little log chimney, and a little friendly resident.",
+                    tags: ["sculpture"]
+                },
+                {
+                    id: "image43",
+                    name: "Purple Tankard",
+                    altText: "A ceramic purple tankard covered in purple geometric patterns",
+                    image: "purple_tankard",
+                    description: "Made for an old friend's birthday, one who loves purple, and tankards, and everything that comes with this. The purple is Amaco Flambe and I love the goopiness, even if this glaze has been the bane of my life in the past.",
+                    tags: ["sculpture"]
+                },
+                {
                     id: "image42",
                     name: "Griffin Jr",
                     altText: "A ceramic statue of a Griffin",
